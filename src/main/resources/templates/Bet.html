@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+
+</head>
+<body>
+<h1>User Dashboard</h1>
+<h2>Countdown Timer</h2>
+<div>Time remaining: <span id="timer"></span></div>
+<div id="clock"></div>
+
+<input type="hidden" id="loginTime" name="loginTime" th:value="${#dates.format(#dates.createNow(), 'HH:mm:ss')}">
+<!--</div>-->
+
+<!--<p>Total Lots: <span th:text="${totalLots}"></span></p>-->
+<!--<p>Time Left for Current Lot: <span id="countdownTimer" th:text="${countdownSeconds}"></span>60 seconds</p>-->
+<form action="#" th:action="@{/Bet}" method="post" th:object="${detail}">
+    <p>Your current Slot No.<span th:text="${slotNumber}"></span></p>
+    <div>
+        <h2>Which horse you want to bet(1-10)?</h2>
+        <!--        <input type="number" id="horseId" name="horseId" th:field="*{horseId}" />-->
+        <select name="selectedHorse">
+            <option th:each="horse : ${horses}" th:value="${horse}" th:text="${horse}"></option>
+        </select>
+        <!--        <input type="hidden" id="horseId" name="horseId" th:value="${horseId}" />-->
+    </div>
+    <div>
+        <h2>Select a Bet Amount</h2>
+        <select name="selectedBetAmount">
+            <option th:each="amount : ${betAmounts}" th:value="${amount}" th:text="${amount}"></option>
+        </select>
+    </div>
+    <!--    <div>-->
+    <!--        <label for="betAmount">How much amount you want to bet?</label>-->
+    <!--        <input type="number" id="betAmount" name="betAmount" th:field="*{betAmount}" />-->
+    <!--    </div>-->
+<!--    <div>-->
+<!--        <input type="hidden" id="startTime" name="startTime" th:value="${startTime}">-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <input type="hidden" id="endTime" name="endTime" th:value="${endTime}">-->
+<!--    </div>-->
+    <div>
+        <input type="hidden" id="slotvalue" name="slotvalue">
+    </div>
+
+    <!--    <div>-->
+    <!--        <label th:field="*{loginTime}" >Login Time:</label>-->
+    <!--&lt;!&ndash;        <input type="time" id="endTime" name="endTime" th:field="*{endTime}"  />&ndash;&gt;-->
+    <!--    </div>-->
+    <!--    <div>-->
+    <!--        <label for="totalLots">Total Lots:</label>-->
+    <!--        <input type="number" id="totalLots" name="totalLots" th:field="*{totalSlots}"/>-->
+    <!--    </div>-->
+    <input type="hidden" id="raceResult">
+    <button id="save"  onclick="showAlert()" type="submit">Save</button>
+
+
+    <button type="button" onclick="clearForm()">Clear</button>
+
+    <!--    <button id="hideButton" style="display:none" >Confirm</button>-->
+    <!--    <button id="cancel" type="submit" style="display:none" >Cancel</button>-->
+
+
+</form>
+
+<script th:inline="javascript">
+
+    /* function updateClock() {
+           var now = new Date();
+           var hours = now.getHours().toString().padStart(2, '0');
+           var minutes = now.getMinutes().toString().padStart(2, '0');
+           var seconds = now.getSeconds().toString().padStart(2, '0');
+           var timeString = hours + ':' + minutes + ':' + seconds;
+           document.getElementById('clock').textContent = timeString;
+       }
+
+       setInterval(updateClock, 1000); // Update clock every second*/
+
+
+
+
+   function startTimer(duration, display) {
+    var timer = duration;
+    var minutes, seconds;
+
+    // Retrieve stored countdown time and slot number from session storage
+    var storedCountdownTime = sessionStorage.getItem('countdownTime');
+    var storedSlotNumber = sessionStorage.getItem('slotNumber');
+
+    // Check if there's stored time and the slot number matches
+    if (storedCountdownTime && storedSlotNumber === "[[${slotNumber}]]") {
+        timer = parseInt(storedCountdownTime);
+    } else {
+        // Clear stored countdown time if slot number changed
+        sessionStorage.removeItem('countdownTime');
+    }
+
+    var interval = setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+            alert("Your betting time is over!");
+            clearInterval(interval);
+        }
+
+        // Store the current countdown time and slot number
+        sessionStorage.setItem('countdownTime', timer.toString());
+        sessionStorage.setItem('slotNumber', "[[${slotNumber}]]");
+    }, 1000);
+}
+
+// Retrieve end time, start time, countdown time, and slot number from the model using Thymeleaf
+var startTime = [[${startDateTime}]]; // Replace null with actual start time from backend
+var endTime = [[${endDateTime}]];
+var countdownTime = [[${countdownTime}]];
+console.log("StartTime..."+startTime);
+console.log("countdownTime",countdownTime);
+console.log("End Time..."+endTime);
+var display = document.querySelector('#timer');
+
+// Start the timer with the countdown time
+startTimer(countdownTime, display);
+
+
+
+
+//new code 13.5.24
+
+
+    /*<![CDATA[*/
+   /* var startTime = [[${startDateTime}]] ; // Replace null with actual start time from backend
+    var endTime = [[${endDateTime}]]; // Replace null with actual end time from backend
+
+
+    var display = document.querySelector('#timer');
+
+    function startTimer(duration, display) {
+        var timer = duration;
+        var minutes, seconds;
+
+        var interval = setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                timer = duration;
+                alert("Your betting time is over!");
+                clearInterval(interval);
+            }
+            sessionStorage.setItem('slotNumber', "[[${slotNumber}]]");
+        }, 1000);
+    }
+
+    // Calculate remaining time
+    var remainingTime = Math.max(Math.floor((new Date(endTime) - new Date(startTime)) / 1000), 0);
+
+    // Start the timer with the remaining time
+    startTimer(remainingTime, display);
+    sessionStorage.setItem('remainingTime', remainingTime);*/
+
+
+
+
+
+
+
+
+
+
+window.onload = function () {
+
+
+           var button = document.getElementById('save');
+
+
+              var slotValue = [[${slots}]];
+       // alert("slot value"+slotValue);
+       if (slotValue == "[]"){
+       slotValue="";
+       }
+              if (slotValue !== null && slotValue !== "") {
+
+                  // Display the pop-up with the slot value
+                  //$('#slotPopup').modal('show');
+                  document.getElementById('slotvalue').innerText = slotValue;
+              }
+              else {
+              alert("No slots available for today");
+              button.disabled = true;
+              }
+          };
+
+
+
+
+          /* function displayAlert() {
+                    var win = [[${raceResult}]];
+                   var winninghorse = document.getElementById('raceResult').value;
+                   alert("Winning Horse is: "+win);// Change this to your desired alert message
+              }
+
+              // Call the function to display the alert every 60 seconds
+              setInterval(displayAlert, 60000);*/
+
+          function showDetails(){
+                var startTime = document.getElementById('startTime').value;
+                var endTime = document.getElementById('endTime').value;
+                alert('Betting start time : '+startTime + ' Betting end Time : '+endTime);
+                alert('Betting is now open');
+            }
+
+            function showAlert() {
+                var horse = document.getElementById('horseId').value;
+                var betAmount = document.getElementById('betAmount').value;
+                   /* if (!horseClicks[horse]) {
+             horseClicks[horse] = 1; // Initialize count if first click
+         } else {
+             horseClicks[horse]++; // Increment count if not first click
+             if (horseClicks[horse] >= 2) {
+                 alert("The winning horse is Horse no. " + horse);
+                 // Reset the click count for this horse
+                 horseClicks[horse] = 0;
+             }
+         }*/
+
+                alert('You are betting for Horse no.' + horse);
+                alert('Your bet of $' + betAmount + ' has been successfully placed on Horse no.' + horse);
+
+                return false;
+
+            }
+
+
+</script>
+<script>
+    function clearForm() {
+        window.location.reload();
+    }
+</script>
+</body>
+
+
+</html>

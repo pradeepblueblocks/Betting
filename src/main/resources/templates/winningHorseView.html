@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Winning Horse</title>
+</head>
+<body>
+
+<h2>Winning Horse</h2>
+
+<div>
+<!--    <p>StartTime: <span th:text="${#dates.format(startTime, 'yyyy-MM-dd HH:mm:ss')}"></span></p>-->
+    <p>StartTime: <span th:text="${startTime}"></span></p>
+    <p>The current time is: <span id="currentTime"></span></p>
+</div>
+<div id="timer" ></div>
+<!--<div>Remaining Time: <span id="timer"></span></div>-->
+
+<table style="border: 1px solid black;">
+    <thead> <h3>BET RESULT</h3>
+    <tr>
+        <th>Horse Index</th>
+        <th>Bet Time</th>
+        <th>Slot Number</th>
+        <th>Player</th>
+    </tr>
+    </thead>
+    <tbody>
+<!--    <div th:each="result : ${last5Results}">-->
+<!--        <tr th:each="result : ${last5Results}">-->
+             <tr th:each="result : ${last5BetResults}">
+            <td><span th:text="${result[0]}"></span></td>
+            <td><span th:text="${result[1]}"></span></td>
+            <td style="text-align:center"><span th:text="${result[2]}"></span></td>
+            <td style="text-align:center"><span th:text="${result[3]}"></span></td>
+        </tr>
+
+<!--    </div>-->
+    </tbody>
+</table>
+
+<table  style="border: 1px solid black;">
+    <thead> <h3>WINNING RESULT</h3>
+    <tr>
+        <th>Winning Horse Index</th>
+        <th>Bet Time</th>
+        <th>Slot Number</th>
+        <th>Player</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!--    <div th:each="result : ${last5Results}">-->
+
+            <tr th:each="result : ${last5Results}">
+        <td><span th:text="${result[0]}"></span></td>
+        <td><span th:text="${result[1]}"></span></td>
+        <td style="text-align:center"><span th:text="${result[2]}"></span></td>
+        <td style="text-align:center"><span th:text="${result[3]}"></span></td>
+    </tr>
+
+    <!--    </div>-->
+    </tbody>
+</table>
+
+<!--<div th:if="${winningHorseId != null}">-->
+<!--    <p id="display"  style="font-weight: bold;">The winning horse ID is: <span th:text="${winningHorseId}"></span></p>-->
+
+<!--</div>-->
+<!--<div th:if="${winningHorseId != null}">-->
+<!--    <p id="display" style="font-weight: bold;">The winning horse ID and slot number are: <span th:text="${winningHorseId} + '[' + ${last5Results[0][2]} + ']'"></span></p>-->
+<!--</div>-->
+<!--<div th:if="${isDraw}">-->
+<!--    <p th:text="${isDraw} ? 'isDraw is true' : 'isDraw is false'"></p>-->
+<!--    <p  style="font-weight: bold;">The game is a draw!</p>-->
+<!--</div>-->
+
+<!--//<div id="display" th:if="${winningHorseId != null}">-->
+<!--<p th:text="${winningHorseId}"></p>-->
+<div id="display">
+    <div th:if="${isDraw}">
+
+        <p  style="font-weight: bold;">The game is a draw!</p>
+    </div>
+    <div th:unless="${isDraw}">
+        <p style="font-weight: bold;">The winning horse ID and slot number are: <span th:text="${winningHorseId} + '[' + ${last5Results[0][2]} + ']'"></span></p>
+    </div>
+</div>
+
+<!--<div th:if="${winningHorseId == null}">-->
+<!--    <p style="font-weight: bold;" id="value">No bets have been placed yet.<span th:text="${winningHorseId}"></span></p>-->
+<!--</div>-->
+</body>
+<script  th:inline="javascript">
+    var currentTime = new Date();
+   function displayCurrentTime() {
+           // Get the current date and time
+
+
+           // Format the time (optional)
+           var hours = currentTime.getHours();
+           var minutes = currentTime.getMinutes();
+          // var seconds = currentTime.getSeconds();
+           //var formattedTime = hours + ":" + minutes + ":" + seconds;
+           var formattedTime = hours + ":" + minutes
+
+           // Display the time in the HTML element
+           document.getElementById("currentTime").innerText = formattedTime;
+
+           }
+
+
+           var displayContent = document.getElementById("display").innerText;
+
+               var combinedContent = displayContent + " " +  document.getElementById("currentTime").innerText ;
+
+
+       // Call the displayCurrentTime function initially to display the current time
+       displayCurrentTime();
+        setInterval(displayCurrentTime, 60000);
+
+
+  /* function startTimer(duration, display) {
+       var timer = duration, minutes, seconds;
+       setInterval(function () {
+           minutes = parseInt(timer / 60, 10);
+           seconds = parseInt(timer % 60, 10);
+
+           minutes = minutes < 10 ? "0" + minutes : minutes;
+           seconds = seconds < 10 ? "0" + seconds : seconds;
+
+           display.textContent = minutes + ":" + seconds;
+
+           if (--timer < 0) {
+               timer = duration;
+               alert("Your time is up!");
+                if(combinedContent)
+               {
+                 alert(combinedContent);
+               }
+           }
+       }, 1000);
+   }
+
+window.onload = function () {
+           var display = document.querySelector('#timer');
+           var remainingTime = "[[${timeDifferenceInSeconds}]]"; // Retrieve remaining time from the model using Thymeleaf
+
+           // Start the timer with the remaining time
+           startTimer(remainingTime, display);
+       }; */
+
+
+
+
+
+
+
+
+     /*var remainingSeconds = "[[${remainingSeconds}]]";
+
+        var timerDisplay = document.getElementById("timer");
+
+        function countdown() {
+            timerDisplay.textContent = "Countdown Timer: " + remainingSeconds + " seconds";
+            if (remainingSeconds > 0) {
+                remainingSeconds--;
+                setTimeout(countdown, 1000); // Call countdown function after 1 second
+            } else {
+                timerDisplay.textContent = "Time's up!";
+                 window.location.href = [[ @{'/winningHorseView'} ]];
+            }
+        }
+
+if(remainingSeconds>0){
+        countdown();}*/
+
+
+
+
+
+   function startTimer(duration, display) {
+        var timer = duration;
+        var minutes, seconds;
+        console.log("Duration" ,duration);
+         var timerDisplay = document.getElementById("timer");
+
+        var interval = setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+            if(isNaN(duration)){
+            minutes = 0;
+            seconds = 0;
+            display.textContent = minutes  + ":" + seconds;
+             timerDisplay.textContent = "Time's up!";
+            }
+
+            display.textContent = minutes  + ":" + seconds;
+
+            if (--timer < 0) {
+                timer = duration;
+              //  alert("Your betting time is over!");
+
+                sessionStorage.clear();
+
+                clearInterval(interval);
+                 window.location.href = [[ @{'/winningHorseView'} ]]
+            }
+        }, 1000);
+    }
+
+    // Retrieve stored countdown time and slot number from session storage
+    var storedCountdownTime = sessionStorage.getItem('countdownTime');
+    var storedSlotNumber = sessionStorage.getItem('slotNumber');
+
+    // Retrieve remaining time from session storage
+    var countdownTime = parseInt(storedCountdownTime);
+
+    // Start the timer with the countdown time
+    startTimer(countdownTime, document.querySelector('#timer'));
+
+
+
+
+</script>
+</html>

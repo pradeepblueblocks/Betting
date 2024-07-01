@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<!--    <script>-->
+<!--        $(document).ready(function () {-->
+<!--            // Start timer when the page loads-->
+<!--            $.get("/startTimer");-->
+
+<!--            // Update countdown timer every second-->
+<!--            setInterval(function () {-->
+<!--                $('#countdownTimer').text($('#countdownTimer').text() - 1);-->
+<!--            }, 1000);-->
+<!--        });-->
+<!--    </script>-->
+
+    <script>
+        function showAlert() {
+             var userInput = document.getElementById('selectedDate').value;
+             var startTime = document.getElementById('startTime').value;
+             alert('Your selected date & Your start Time: ' + userInput +startTime);
+             alert('Your data successfully updated');
+         }
+    </script>
+    </head>
+    <body>
+    <h2>Admin Dashboard</h2>
+<!--    <p>Total Lots: <span th:text="${totalLots}"></span></p>-->
+<!--    <p>Time Left for Current Lot: <span id="countdownTimer" th:text="${countdownSeconds}"></span>60 seconds</p>-->
+    <form action="#" th:action="@{/adminpage}" method="post" th:object="${slot}">
+        <div>
+            <label for="selectedDate">Select a Date:</label>
+            <input type="date" id="selectedDate" name="selectedDate" th:field="*{selectedDate}" />
+        </div>
+        <br>
+        <div>
+            <label for="startTime">Start Time:</label>
+            <input type="time" id="startTime" name="startTime" th:field="*{startTime}" />
+        </div>
+        <br>
+        <div>
+            <label for="endTime">End Time:</label>
+            <input type="time" id="endTime" name="endTime" th:field="*{endTime}"  />
+        </div>
+        <br>
+        <div>
+            <label for="slotDurationInMinute">SlotDuration:</label>
+            <input type="number" id="slotDurationInMinute" name="slotDurationInMinute" placeholder="Please enter value in minutes"  />
+        </div>
+
+
+        <br>
+<!--        <div>-->
+<!--            <label for="totalLots">Total Lots:</label>-->
+<!--            <input type="number" id="totalLots" name="totalLots" th:field="*{totalSlots}"/>-->
+<!--        </div>-->
+        <button onclick="showAlert() ">Update</button>
+
+        <button type ="submit">Cancel</button>
+
+
+    </form>
+
+    </body>
+
+
+</html>

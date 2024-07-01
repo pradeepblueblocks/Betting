@@ -1,0 +1,405 @@
+09:27:15.391 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d14h49m58s16ms199µs300ns).
+11:52:15.425 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:52:15.454 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:52:15.469 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:52:24.092 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+11:52:24.098 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 21808 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+11:52:24.098 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 21808 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+11:52:24.100 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+11:52:24.100 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+11:52:24.210 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:52:24.211 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:52:25.734 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:52:25.932 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 178 ms. Found 9 JPA repository interfaces.
+11:52:27.794 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+11:52:27.818 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+11:52:27.819 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:52:27.820 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+11:52:28.026 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:52:28.027 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3815 ms
+11:52:28.437 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:52:28.578 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+11:52:28.987 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:52:29.252 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:52:29.999 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:52:30.046 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+11:52:34.436 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:52:34.456 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:52:35.876 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:52:36.483 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:52:36.506 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8086"]
+11:52:36.535 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+11:52:36.551 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 13.311 seconds (JVM running for 14.829)
+11:52:36.551 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 13.311 seconds (JVM running for 14.829)
+12:14:17.869 [http-nio-0.0.0.0-8086-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:14:17.869 [http-nio-0.0.0.0-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:14:17.872 [http-nio-0.0.0.0-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+12:58:22.975 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:58:22.988 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:58:22.996 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:58:31.922 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:58:31.922 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:58:31.922 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:58:31.938 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+12:58:31.938 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+12:58:32.435 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:58:32.435 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:58:34.688 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:58:34.938 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 228 ms. Found 9 JPA repository interfaces.
+12:58:37.745 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+12:58:37.777 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+12:58:37.778 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:58:37.779 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+12:58:38.073 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:58:38.073 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5637 ms
+12:58:38.633 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:58:38.784 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+12:58:39.222 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:58:39.569 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:58:40.641 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:58:40.704 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+12:58:44.805 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:58:44.847 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:58:47.354 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:58:48.369 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:58:48.439 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8086"]
+12:58:48.525 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+12:58:48.589 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 17.627 seconds (JVM running for 19.131)
+12:58:48.589 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 17.627 seconds (JVM running for 19.131)
+12:59:09.035 [http-nio-0.0.0.0-8086-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:59:09.035 [http-nio-0.0.0.0-8086-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:59:09.039 [http-nio-0.0.0.0-8086-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+14:28:58.254 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m16s987ms470µs100ns).
+15:25:42.158 [http-nio-0.0.0.0-8086-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2024-07-1": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2024-07-1' could not be parsed at index 8; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "2024-07-1": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2024-07-1' could not be parsed at index 8<EOL> at [Source: (PushbackInputStream); line: 4, column: 21] (through reference chain: com.bet.BettingGame.model.SlotRequest["selectedDate"])]
+15:25:55.828 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - CurrentTime in /slots postmapping: 15:25:55.828545800
+15:25:55.828 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - CurrentTime in /slots postmapping: 15:25:55.828545800
+15:25:55.828 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - slotDuration: 1
+15:25:55.828 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - slotDuration: 1
+15:25:55.828 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - REQUEST START TIME: 15:40 AND ENDTIME: 16:50
+15:25:55.828 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - REQUEST START TIME: 15:40 AND ENDTIME: 16:50
+15:25:55.829 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - GameId: 14
+15:25:55.829 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - GameId: 14
+15:25:55.829 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - WinningPrice: 90.0
+15:25:55.829 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - WinningPrice: 90.0
+15:25:56.027 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - Total slots: 70
+15:25:56.027 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - Total slots: 70
+15:25:56.078 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - Next slot number: 2870
+15:25:56.078 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - Next slot number: 2870
+15:25:56.104 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:25:56.104 [http-nio-0.0.0.0-8086-exec-4] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:27:18.993 [http-nio-0.0.0.0-8086-exec-6] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [516] milliseconds.
+15:27:19.000 [http-nio-0.0.0.0-8086-exec-6] INFO  c.b.B.controller.AdminController - Entered into GetMapping adminUpcomingSlots Method...
+15:27:19.000 [http-nio-0.0.0.0-8086-exec-6] INFO  c.b.B.controller.AdminController - Entered into GetMapping adminUpcomingSlots Method...
+15:27:19.041 [http-nio-0.0.0.0-8086-exec-6] INFO  c.b.B.controller.AdminController - Upcoming Slots: [[Ljava.lang.Object;@21d39d0]
+15:27:19.041 [http-nio-0.0.0.0-8086-exec-6] INFO  c.b.B.controller.AdminController - Upcoming Slots: [[Ljava.lang.Object;@21d39d0]
+15:29:10.725 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 91
+15:29:10.725 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 91
+15:29:10.826 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - Total Duration: PT46M
+15:29:10.826 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - Total Duration: PT46M
+15:29:10.827 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - totalSeconds: 2760
+15:29:10.827 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - totalSeconds: 2760
+15:29:10.827 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - slotDurationInSeconds: 120
+15:29:10.827 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - slotDurationInSeconds: 120
+15:29:10.828 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - Total slots: 23
+15:29:10.828 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - Total slots: 23
+15:29:10.847 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - Next slot number: 2940
+15:29:10.847 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - Next slot number: 2940
+15:29:12.407 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.407 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.407 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.407 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.408 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.409 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.409 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.409 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.409 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.409 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.409 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.410 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.411 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.411 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.411 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.411 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.411 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.411 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.412 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.413 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.413 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.413 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:29:12.413 [http-nio-0.0.0.0-8086-exec-2] INFO  c.b.B.controller.AdminController - AdminSlotId: 91
+15:30:35.483 [http-nio-0.0.0.0-8086-exec-5] INFO  c.b.B.controller.UserController - Entered into GetMapping upcomingSlots endpoint...
+15:30:35.483 [http-nio-0.0.0.0-8086-exec-5] INFO  c.b.B.controller.UserController - Entered into GetMapping upcomingSlots endpoint...
+15:30:35.553 [http-nio-0.0.0.0-8086-exec-5] INFO  c.b.B.controller.UserController - Upcoming Slots: [SlotDetails{slotId=5125, totalSlots=23, slotNumber=2940, startTime=16:59, endTime=17:00:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5126, totalSlots=23, slotNumber=2941, startTime=17:01, endTime=17:02:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5127, totalSlots=23, slotNumber=2942, startTime=17:03, endTime=17:04:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5128, totalSlots=23, slotNumber=2943, startTime=17:05, endTime=17:06:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5129, totalSlots=23, slotNumber=2944, startTime=17:07, endTime=17:08:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5130, totalSlots=23, slotNumber=2945, startTime=17:09, endTime=17:10:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5131, totalSlots=23, slotNumber=2946, startTime=17:11, endTime=17:12:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5132, totalSlots=23, slotNumber=2947, startTime=17:13, endTime=17:14:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5133, totalSlots=23, slotNumber=2948, startTime=17:15, endTime=17:16:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5134, totalSlots=23, slotNumber=2949, startTime=17:17, endTime=17:18:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5135, totalSlots=23, slotNumber=2950, startTime=17:19, endTime=17:20:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5136, totalSlots=23, slotNumber=2951, startTime=17:21, endTime=17:22:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5137, totalSlots=23, slotNumber=2952, startTime=17:23, endTime=17:24:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5138, totalSlots=23, slotNumber=2953, startTime=17:25, endTime=17:26:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5139, totalSlots=23, slotNumber=2954, startTime=17:27, endTime=17:28:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5140, totalSlots=23, slotNumber=2955, startTime=17:29, endTime=17:30:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5141, totalSlots=23, slotNumber=2956, startTime=17:31, endTime=17:32:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5142, totalSlots=23, slotNumber=2957, startTime=17:33, endTime=17:34:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5143, totalSlots=23, slotNumber=2958, startTime=17:35, endTime=17:36:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5144, totalSlots=23, slotNumber=2959, startTime=17:37, endTime=17:38:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5145, totalSlots=23, slotNumber=2960, startTime=17:39, endTime=17:40:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5146, totalSlots=23, slotNumber=2961, startTime=17:41, endTime=17:42:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5147, totalSlots=23, slotNumber=2962, startTime=17:43, endTime=17:44:59, selectedDate=2024-07-01, admin=1}]
+15:30:35.553 [http-nio-0.0.0.0-8086-exec-5] INFO  c.b.B.controller.UserController - Upcoming Slots: [SlotDetails{slotId=5125, totalSlots=23, slotNumber=2940, startTime=16:59, endTime=17:00:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5126, totalSlots=23, slotNumber=2941, startTime=17:01, endTime=17:02:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5127, totalSlots=23, slotNumber=2942, startTime=17:03, endTime=17:04:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5128, totalSlots=23, slotNumber=2943, startTime=17:05, endTime=17:06:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5129, totalSlots=23, slotNumber=2944, startTime=17:07, endTime=17:08:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5130, totalSlots=23, slotNumber=2945, startTime=17:09, endTime=17:10:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5131, totalSlots=23, slotNumber=2946, startTime=17:11, endTime=17:12:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5132, totalSlots=23, slotNumber=2947, startTime=17:13, endTime=17:14:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5133, totalSlots=23, slotNumber=2948, startTime=17:15, endTime=17:16:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5134, totalSlots=23, slotNumber=2949, startTime=17:17, endTime=17:18:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5135, totalSlots=23, slotNumber=2950, startTime=17:19, endTime=17:20:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5136, totalSlots=23, slotNumber=2951, startTime=17:21, endTime=17:22:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5137, totalSlots=23, slotNumber=2952, startTime=17:23, endTime=17:24:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5138, totalSlots=23, slotNumber=2953, startTime=17:25, endTime=17:26:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5139, totalSlots=23, slotNumber=2954, startTime=17:27, endTime=17:28:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5140, totalSlots=23, slotNumber=2955, startTime=17:29, endTime=17:30:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5141, totalSlots=23, slotNumber=2956, startTime=17:31, endTime=17:32:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5142, totalSlots=23, slotNumber=2957, startTime=17:33, endTime=17:34:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5143, totalSlots=23, slotNumber=2958, startTime=17:35, endTime=17:36:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5144, totalSlots=23, slotNumber=2959, startTime=17:37, endTime=17:38:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5145, totalSlots=23, slotNumber=2960, startTime=17:39, endTime=17:40:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5146, totalSlots=23, slotNumber=2961, startTime=17:41, endTime=17:42:59, selectedDate=2024-07-01, admin=1}, SlotDetails{slotId=5147, totalSlots=23, slotNumber=2962, startTime=17:43, endTime=17:44:59, selectedDate=2024-07-01, admin=1}]
+15:33:55.518 [http-nio-0.0.0.0-8086-exec-1] INFO  c.b.B.controller.UserController - LAST5RACERESULTS: [[Ljava.lang.Object;@3278676e, [Ljava.lang.Object;@4f843684, [Ljava.lang.Object;@6b2a989c, [Ljava.lang.Object;@7fdd0d67, [Ljava.lang.Object;@eef46e5]
+15:33:55.518 [http-nio-0.0.0.0-8086-exec-1] INFO  c.b.B.controller.UserController - LAST5RACERESULTS: [[Ljava.lang.Object;@3278676e, [Ljava.lang.Object;@4f843684, [Ljava.lang.Object;@6b2a989c, [Ljava.lang.Object;@7fdd0d67, [Ljava.lang.Object;@eef46e5]
+15:36:23.242 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:36:23.256 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:36:23.338 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:36:24.034 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:36:24.034 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:36:24.060 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:36:24.060 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:36:24.885 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:36:24.994 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
+15:36:26.512 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+15:36:26.513 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+15:36:26.514 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:36:26.515 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+15:36:26.570 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:36:26.571 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2505 ms
+15:36:27.103 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:36:27.146 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+15:36:27.699 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+15:36:27.701 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+15:36:27.865 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com/bet/BettingGame/model/RaceResult
+15:36:27.865 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+15:36:28.253 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+15:36:28.253 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:36:28.278 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:36:28.355 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com/bet/BettingGame/model/RaceResult
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:447)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1345)
+	at com.bet.BettingGame.BettingGameApplication.main(BettingGameApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: com/bet/BettingGame/model/RaceResult
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredMethodProperties(JavaXClass.java:97)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:116)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:108)
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:252)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:785)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:248)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.bet.BettingGame.model.RaceResult
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 42 common frames omitted
+15:36:30.713 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:36:30.713 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:36:30.713 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:36:30.713 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:36:32.171 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:36:32.612 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 439 ms. Found 9 JPA repository interfaces.
+15:36:32.919 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+15:36:32.920 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+15:36:32.920 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:36:32.921 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+15:36:32.985 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:36:32.985 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2265 ms
+15:36:33.061 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:36:33.074 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+15:36:33.223 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+15:36:33.224 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+15:36:35.778 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:36:35.778 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:36:38.040 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:36:38.310 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+15:36:38.340 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8086"]
+15:36:38.345 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+15:36:38.352 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 7.726 seconds (JVM running for 9488.899)
+15:36:38.352 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 7.726 seconds (JVM running for 9488.899)
+15:36:38.356 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+15:38:25.942 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:38:25.943 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+15:38:25.952 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+15:38:26.168 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:38:26.168 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:38:26.169 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:38:26.169 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:38:27.153 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:38:27.188 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+15:38:28.548 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+15:38:28.622 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+15:38:28.622 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:38:28.623 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+15:38:28.799 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:38:28.800 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2624 ms
+15:38:29.388 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:38:29.442 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+15:38:29.592 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+15:38:29.593 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+15:38:29.722 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com/bet/BettingGame/model/RaceResult
+15:38:29.722 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+15:38:29.865 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+15:38:29.865 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:38:29.904 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:38:29.910 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com/bet/BettingGame/model/RaceResult
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:447)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1345)
+	at com.bet.BettingGame.BettingGameApplication.main(BettingGameApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: com/bet/BettingGame/model/RaceResult
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredMethodProperties(JavaXClass.java:97)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:116)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:108)
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:252)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:785)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:248)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.bet.BettingGame.model.RaceResult
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 42 common frames omitted
+15:38:32.001 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:38:32.001 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 24936 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+15:38:32.001 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:38:32.001 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+15:38:32.614 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:38:32.754 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 9 JPA repository interfaces.
+15:38:33.064 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+15:38:33.066 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+15:38:33.067 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:38:33.067 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+15:38:33.148 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:38:33.148 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1143 ms
+15:38:33.327 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:38:33.342 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+15:38:33.524 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+15:38:33.525 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+15:38:36.726 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:38:36.726 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:38:37.198 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:38:37.293 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+15:38:37.297 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8086"]
+15:38:37.299 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+15:38:37.303 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 5.396 seconds (JVM running for 9607.85)
+15:38:37.303 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 5.396 seconds (JVM running for 9607.85)
+15:38:37.305 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+16:50:51.110 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:50:51.122 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+16:50:51.129 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+16:51:08.122 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:51:08.128 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 21752 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+16:51:08.128 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 21752 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+16:51:08.130 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+16:51:08.130 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+16:51:08.239 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:51:08.239 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:51:10.329 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:51:10.596 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 241 ms. Found 9 JPA repository interfaces.
+16:51:13.308 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+16:51:13.342 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+16:51:13.344 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:51:13.344 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+16:51:13.636 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:51:13.637 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5397 ms
+16:51:14.189 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:51:14.341 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+16:51:14.776 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:51:15.114 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:51:16.130 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:51:16.193 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+16:51:20.232 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:20.271 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:51:22.515 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:51:23.336 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:51:23.360 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8086"]
+16:51:23.412 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+16:51:23.437 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 16.224 seconds (JVM running for 17.76)
+16:51:23.437 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 16.224 seconds (JVM running for 17.76)
+17:17:10.120 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m23s542ms343µs400ns).

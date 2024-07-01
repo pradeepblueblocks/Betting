@@ -1,0 +1,953 @@
+11:59:32.062 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+11:59:32.090 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:59:32.092 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:59:32.446 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+11:59:32.454 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:59:32.495 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1698fc68, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4504d271, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@207b8649, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65b3a85a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@34997338, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57eda880, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2b5825fa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@53d1b9b3, org.springframework.test.context.event.EventPublishingTestExecutionListener@2cae1042, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@163d04ff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7c209437, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2262b621, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7e928e2f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f667fe, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@788fcafb]
+11:59:35.386 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+11:59:35.393 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 8564 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+11:59:35.393 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 8564 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+11:59:35.395 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+11:59:35.395 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+11:59:39.357 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+11:59:39.842 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+11:59:39.843 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+11:59:39.845 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+11:59:39.904 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 5.274 seconds (JVM running for 10.094)
+11:59:39.904 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 5.274 seconds (JVM running for 10.094)
+12:18:38.348 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:18:38.366 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:18:38.370 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:18:38.786 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:18:38.793 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:18:38.829 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a8d39c4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@25b2cfcb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@72758afa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@fb9c7aa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4c398c80, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7fc6de5b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21baa903, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@607fbe09, org.springframework.test.context.event.EventPublishingTestExecutionListener@60a2630a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3382f8ae, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60641ec8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@75f65e45]
+12:18:41.648 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 5972 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:18:41.648 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 5972 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:18:41.650 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:18:41.650 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:18:41.655 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:18:45.512 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+12:18:45.513 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+12:18:45.514 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+12:18:45.573 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.776 seconds (JVM running for 9.651)
+12:18:45.573 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.776 seconds (JVM running for 9.651)
+12:32:21.760 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:32:21.774 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:32:21.775 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:32:22.108 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:32:22.117 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:32:22.156 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4da602fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a8d39c4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@25b2cfcb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@72758afa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fb9c7aa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c398c80, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7fc6de5b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21baa903, org.springframework.test.context.event.EventPublishingTestExecutionListener@607fbe09, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3382f8ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@60641ec8]
+12:32:24.761 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 11612 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:32:24.761 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 11612 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:32:24.762 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:32:24.762 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:32:24.799 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:32:28.876 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+12:32:28.876 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+12:32:28.879 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+12:32:28.944 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.873 seconds (JVM running for 8.991)
+12:32:28.944 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.873 seconds (JVM running for 8.991)
+12:32:29.317 [main] INFO  c.b.B.controller.AdminController - CurrentTime in /slots postmapping: 12:32:29.317722200
+12:32:29.317 [main] INFO  c.b.B.controller.AdminController - CurrentTime in /slots postmapping: 12:32:29.317722200
+12:32:29.320 [main] INFO  c.b.B.controller.AdminController - slotDuration: 60
+12:32:29.320 [main] INFO  c.b.B.controller.AdminController - slotDuration: 60
+12:32:29.320 [main] INFO  c.b.B.controller.AdminController - REQUEST START TIME: 10:00 AND ENDTIME: 12:00
+12:32:29.320 [main] INFO  c.b.B.controller.AdminController - REQUEST START TIME: 10:00 AND ENDTIME: 12:00
+12:32:29.321 [main] INFO  c.b.B.controller.AdminController - GameId: 1
+12:32:29.321 [main] INFO  c.b.B.controller.AdminController - GameId: 1
+12:32:29.321 [main] INFO  c.b.B.controller.AdminController - WinningPrice: 100.0
+12:32:29.321 [main] INFO  c.b.B.controller.AdminController - WinningPrice: 100.0
+12:32:29.335 [main] INFO  c.b.B.controller.AdminController - Total slots: 2
+12:32:29.335 [main] INFO  c.b.B.controller.AdminController - Total slots: 2
+12:32:29.336 [main] INFO  c.b.B.controller.AdminController - Next slot number: 2
+12:32:29.336 [main] INFO  c.b.B.controller.AdminController - Next slot number: 2
+12:32:29.337 [main] INFO  c.b.B.controller.AdminController - AdminSlotId: 1
+12:32:29.337 [main] INFO  c.b.B.controller.AdminController - AdminSlotId: 1
+12:32:47.976 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:32:47.989 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:32:47.990 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:32:48.354 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:32:48.359 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:32:48.388 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1af146, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4da602fc, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2a8d39c4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25b2cfcb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@72758afa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@fb9c7aa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c398c80, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7fc6de5b, org.springframework.test.context.event.EventPublishingTestExecutionListener@21baa903, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@607fbe09, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3382f8ae]
+12:32:51.340 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:32:51.358 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 22244 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:32:51.358 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 22244 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:32:51.362 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:32:51.362 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:32:55.007 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+12:32:55.008 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+12:32:55.011 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+12:32:55.070 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.576 seconds (JVM running for 9.203)
+12:32:55.070 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.576 seconds (JVM running for 9.203)
+12:32:55.302 [main] INFO  c.b.B.controller.AdminController - Entered into GetMapping adminUpcomingSlots Method...
+12:32:55.302 [main] INFO  c.b.B.controller.AdminController - Entered into GetMapping adminUpcomingSlots Method...
+12:32:55.307 [main] INFO  c.b.B.controller.AdminController - Upcoming Slots: [[Ljava.lang.Object;@5403431a]
+12:32:55.307 [main] INFO  c.b.B.controller.AdminController - Upcoming Slots: [[Ljava.lang.Object;@5403431a]
+12:33:13.634 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:33:13.647 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:33:13.649 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:33:13.955 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:33:13.961 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:33:13.998 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1af146, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4da602fc, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2a8d39c4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25b2cfcb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@72758afa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@fb9c7aa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c398c80, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7fc6de5b, org.springframework.test.context.event.EventPublishingTestExecutionListener@21baa903, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@607fbe09, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3382f8ae]
+12:33:16.585 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 22540 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:33:16.585 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 22540 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:33:16.586 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:33:16.586 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:33:16.600 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:33:20.237 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+12:33:20.238 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+12:33:20.242 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+12:33:20.328 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.421 seconds (JVM running for 8.619)
+12:33:20.328 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.421 seconds (JVM running for 8.619)
+12:33:44.981 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:33:44.994 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:33:44.995 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:33:45.319 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:33:45.325 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:33:45.362 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4da602fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a8d39c4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@25b2cfcb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@72758afa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fb9c7aa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c398c80, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7fc6de5b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21baa903, org.springframework.test.context.event.EventPublishingTestExecutionListener@607fbe09, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3382f8ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@60641ec8]
+12:33:47.973 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 10400 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:33:47.973 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 10400 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:33:47.974 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:33:47.974 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:33:47.993 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:33:51.950 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+12:33:51.950 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+12:33:51.952 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+12:33:52.011 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.721 seconds (JVM running for 8.823)
+12:33:52.011 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.721 seconds (JVM running for 8.823)
+12:33:52.513 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+12:33:52.513 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+12:40:30.737 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:40:30.751 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:40:30.752 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:40:31.102 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:40:31.110 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:40:31.152 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1af146, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4da602fc, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2a8d39c4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25b2cfcb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@72758afa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@fb9c7aa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c398c80, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7fc6de5b, org.springframework.test.context.event.EventPublishingTestExecutionListener@21baa903, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@607fbe09, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3382f8ae]
+12:40:33.978 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:40:33.978 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 13828 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:40:33.978 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 13828 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:40:33.980 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:40:33.980 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:40:37.779 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+12:40:37.780 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+12:40:37.782 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+12:40:37.838 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.673 seconds (JVM running for 9.169)
+12:40:37.838 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.673 seconds (JVM running for 9.169)
+12:40:38.253 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+12:40:38.253 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+12:48:23.405 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:48:23.419 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:48:23.421 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:48:23.781 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:48:23.787 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:48:23.822 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4da602fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a8d39c4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@25b2cfcb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@72758afa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fb9c7aa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c398c80, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7fc6de5b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21baa903, org.springframework.test.context.event.EventPublishingTestExecutionListener@607fbe09, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3382f8ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@60641ec8]
+12:48:35.565 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:48:35.622 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 444 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:48:35.622 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 444 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:48:35.627 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+12:48:35.627 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+12:48:35.818 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:48:35.819 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:48:37.486 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:48:37.767 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 262 ms. Found 9 JPA repository interfaces.
+12:48:40.874 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+12:48:40.907 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+12:48:40.910 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:48:40.910 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+12:48:41.487 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:48:41.488 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5668 ms
+12:48:42.043 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:48:42.210 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+12:48:42.559 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:48:42.817 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:49:13.941 [restartedMain] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.1.16, port 1434 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:237)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:288)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2654)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:695)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3180)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2833)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2671)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1640)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:936)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:447)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1345)
+	at com.bet.BettingGame.BettingGameApplication.main(BettingGameApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+12:49:13.942 [restartedMain] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.1.16, port 1434 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:237)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:288)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2654)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:695)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3180)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2833)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2671)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1640)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:936)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:447)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1345)
+	at com.bet.BettingGame.BettingGameApplication.main(BettingGameApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+12:49:13.977 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+12:49:16.524 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:49:47.537 [restartedMain] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.1.16, port 1434 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:237)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:288)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2654)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:695)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3180)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2833)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2671)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1640)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:936)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:40)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:65)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:59)
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:155)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:447)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1345)
+	at com.bet.BettingGame.BettingGameApplication.main(BettingGameApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+12:49:47.542 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+12:49:47.542 [restartedMain] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - The TCP/IP connection to the host 192.168.1.16, port 1434 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+12:49:47.563 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+12:49:47.565 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+12:49:51.674 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:49:51.708 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 23236 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:49:51.708 [restartedMain] INFO  c.b.B.BettingGameApplication - Starting BettingGameApplication using Java 11.0.21 on DESKTOP-50DNT7H with PID 23236 (C:\Nisy\BettingThirdPhaseFrontend\target\classes started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:49:51.711 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+12:49:51.711 [restartedMain] INFO  c.b.B.BettingGameApplication - No active profile set, falling back to default profiles: default
+12:49:51.828 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:49:51.828 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:49:53.324 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:49:53.505 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 164 ms. Found 9 JPA repository interfaces.
+12:49:55.216 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+12:49:55.239 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8086"]
+12:49:55.240 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:49:55.243 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+12:49:55.425 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:49:55.425 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3596 ms
+12:49:55.800 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:49:55.904 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+12:49:56.212 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:49:56.450 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:49:57.126 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:49:57.165 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+12:50:01.690 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:50:01.731 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:50:03.396 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:50:04.000 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:50:04.022 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8086"]
+12:50:04.060 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+12:50:04.076 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 13.195 seconds (JVM running for 14.57)
+12:50:04.076 [restartedMain] INFO  c.b.B.BettingGameApplication - Started BettingGameApplication in 13.195 seconds (JVM running for 14.57)
+12:56:44.810 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+12:56:44.823 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:56:44.824 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:56:45.185 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+12:56:45.192 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:56:45.228 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1af146, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4da602fc, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2a8d39c4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25b2cfcb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@72758afa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@fb9c7aa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c398c80, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7fc6de5b, org.springframework.test.context.event.EventPublishingTestExecutionListener@21baa903, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@607fbe09, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3382f8ae]
+12:56:48.252 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 17184 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:56:48.252 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 17184 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+12:56:48.253 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:56:48.253 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+12:56:48.346 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+12:56:55.016 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+12:56:55.017 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+12:56:55.020 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+12:56:55.139 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 7.92 seconds (JVM running for 12.219)
+12:56:55.139 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 7.92 seconds (JVM running for 12.219)
+12:56:55.918 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+12:56:55.918 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+13:02:08.375 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+13:02:08.387 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:02:08.389 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:02:08.711 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+13:02:08.718 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+13:02:08.751 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4da602fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a8d39c4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@25b2cfcb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@72758afa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fb9c7aa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c398c80, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7fc6de5b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21baa903, org.springframework.test.context.event.EventPublishingTestExecutionListener@607fbe09, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3382f8ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@60641ec8]
+13:02:11.718 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 12572 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+13:02:11.718 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 12572 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+13:02:11.720 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+13:02:11.720 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+13:02:11.752 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+13:02:15.508 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+13:02:15.508 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+13:02:15.512 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+13:02:15.570 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.688 seconds (JVM running for 9.057)
+13:02:15.570 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.688 seconds (JVM running for 9.057)
+13:02:15.993 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+13:02:15.993 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+13:47:12.251 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m14s530ms504µs800ns).
+14:13:45.121 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+14:13:45.135 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:13:45.136 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:13:45.456 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+14:13:45.461 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:13:45.497 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4da602fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a8d39c4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@25b2cfcb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@72758afa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fb9c7aa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c398c80, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7fc6de5b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21baa903, org.springframework.test.context.event.EventPublishingTestExecutionListener@607fbe09, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3382f8ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@60641ec8]
+14:13:48.183 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 9272 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:13:48.183 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 9272 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:13:48.185 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+14:13:48.185 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+14:13:48.189 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:13:51.694 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:13:51.694 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:13:51.696 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+14:13:51.750 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.289 seconds (JVM running for 8.404)
+14:13:51.750 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.289 seconds (JVM running for 8.404)
+14:13:52.138 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+14:13:52.138 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+14:21:04.088 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.AdminControllerTest], using SpringBootContextLoader
+14:21:04.100 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.AdminControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:21:04.101 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.AdminControllerTest]: AdminControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:21:04.417 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.AdminControllerTest
+14:21:04.423 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:21:04.455 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4da602fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a8d39c4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@25b2cfcb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@72758afa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fb9c7aa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c398c80, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7fc6de5b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21baa903, org.springframework.test.context.event.EventPublishingTestExecutionListener@607fbe09, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@60a2630a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@29df4d43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40cb698e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3382f8ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@60641ec8]
+14:21:07.147 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 18732 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:21:07.147 [main] INFO  c.b.B.controller.AdminControllerTest - Starting AdminControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 18732 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:21:07.147 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+14:21:07.147 [main] INFO  c.b.B.controller.AdminControllerTest - No active profile set, falling back to default profiles: default
+14:21:07.174 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:21:10.722 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:21:10.722 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:21:10.724 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+14:21:10.780 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.346 seconds (JVM running for 8.573)
+14:21:10.780 [main] INFO  c.b.B.controller.AdminControllerTest - Started AdminControllerTest in 4.346 seconds (JVM running for 8.573)
+14:21:11.157 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+14:21:11.157 [main] INFO  c.b.B.controller.AdminController - ExistingSlotAdminID: 1
+14:21:11.159 [main] INFO  c.b.B.controller.AdminController - Total Duration: PT1H
+14:21:11.159 [main] INFO  c.b.B.controller.AdminController - Total Duration: PT1H
+14:21:11.162 [main] INFO  c.b.B.controller.AdminController - totalSeconds: 3600
+14:21:11.162 [main] INFO  c.b.B.controller.AdminController - totalSeconds: 3600
+14:21:11.163 [main] INFO  c.b.B.controller.AdminController - slotDurationInSeconds: 1800
+14:21:11.163 [main] INFO  c.b.B.controller.AdminController - slotDurationInSeconds: 1800
+14:21:11.164 [main] INFO  c.b.B.controller.AdminController - Total slots: 2
+14:21:11.164 [main] INFO  c.b.B.controller.AdminController - Total slots: 2
+14:21:11.165 [main] INFO  c.b.B.controller.AdminController - Next slot number: 2
+14:21:11.165 [main] INFO  c.b.B.controller.AdminController - Next slot number: 2
+14:21:11.166 [main] INFO  c.b.B.controller.AdminController - AdminSlotId: 0
+14:21:11.166 [main] INFO  c.b.B.controller.AdminController - AdminSlotId: 0
+14:21:11.167 [main] INFO  c.b.B.controller.AdminController - AdminSlotId: 0
+14:21:11.167 [main] INFO  c.b.B.controller.AdminController - AdminSlotId: 0
+14:32:41.836 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bet.BettingGame.controller.GameControllerTest], using SpringBootContextLoader
+14:32:41.850 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bet.BettingGame.controller.GameControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:32:41.852 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bet.BettingGame.controller.GameControllerTest]: GameControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:32:42.167 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bet.BettingGame.BettingGameApplication for test class com.bet.BettingGame.controller.GameControllerTest
+14:32:42.175 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:32:42.214 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@20a14b55, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39ad977d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6da00fb9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@a202ccb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20f12539, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75b25825, org.springframework.test.context.transaction.TransactionalTestExecutionListener@18025ced, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@13cf7d52, org.springframework.test.context.event.EventPublishingTestExecutionListener@3a3e4aff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d2a4eed, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@57459491, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3f0846c6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@77a98a6a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78fbff54, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3e10dc6]
+14:32:45.589 [main] INFO  c.b.B.controller.GameControllerTest - Starting GameControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 18980 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:32:45.589 [main] INFO  c.b.B.controller.GameControllerTest - Starting GameControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 18980 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:32:45.590 [main] INFO  c.b.B.controller.GameControllerTest - No active profile set, falling back to default profiles: default
+14:32:45.590 [main] INFO  c.b.B.controller.GameControllerTest - No active profile set, falling back to default profiles: default
+14:32:45.610 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+14:32:47.155 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'slotDetailsService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bet.BettingGame.service.SlotDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+14:32:47.164 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:32:47.212 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field slotDetailsService in com.bet.BettingGame.controller.AdminController required a bean of type 'com.bet.BettingGame.service.SlotDetailsService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bet.BettingGame.service.SlotDetailsService' in your configuration.
+
+14:32:47.294 [main] INFO  c.b.B.controller.GameControllerTest - Starting GameControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 18980 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:32:47.294 [main] INFO  c.b.B.controller.GameControllerTest - Starting GameControllerTest using Java 11.0.21 on DESKTOP-50DNT7H with PID 18980 (started by BlueBlocks003 in C:\Nisy\BettingThirdPhaseFrontend)
+14:32:47.295 [main] INFO  c.b.B.controller.GameControllerTest - No active profile set, falling back to default profiles: default
+14:32:47.295 [main] INFO  c.b.B.controller.GameControllerTest - No active profile set, falling back to default profiles: default
+14:32:47.747 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'slotDetailsService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bet.BettingGame.service.SlotDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+14:32:47.749 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:32:47.751 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field slotDetailsService in com.bet.BettingGame.controller.AdminController required a bean of type 'com.bet.BettingGame.service.SlotDetailsService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bet.BettingGame.service.SlotDetailsService' in your configuration.
+
+14:32:47.756 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20f12539] to prepare test instance [com.bet.BettingGame.controller.GameControllerTest@5d7dd549]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'slotDetailsService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bet.BettingGame.service.SlotDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:447)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 70 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bet.BettingGame.service.SlotDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1799)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 89 common frames omitted
+15:56:04.314 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s923ms382µs).
+15:57:18.350 [main] INFO  c.b.B.controller.UserController - Entered into GetMapping upcomingSlots endpoint...
+15:57:18.350 [main] INFO  c.b.B.controller.UserController - Entered into GetMapping upcomingSlots endpoint...
+15:57:18.372 [main] ERROR c.b.B.controller.UserController - An error occurred in GetMapping Bet Method: Database error
+java.lang.RuntimeException: Database error
+	at com.bet.BettingGame.controller.UserController.getUserPage(UserController.java:67)
+	at com.bet.BettingGame.controller.UserControllerTest.testGetUserPage_InternalServerError(UserControllerTest.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+15:57:18.372 [main] ERROR c.b.B.controller.UserController - An error occurred in GetMapping Bet Method: Database error
+java.lang.RuntimeException: Database error
+	at com.bet.BettingGame.controller.UserController.getUserPage(UserController.java:67)
+	at com.bet.BettingGame.controller.UserControllerTest.testGetUserPage_InternalServerError(UserControllerTest.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+15:57:18.472 [main] INFO  c.b.B.controller.UserController - Entered into GetMapping upcomingSlots endpoint...
+15:57:18.472 [main] INFO  c.b.B.controller.UserController - Entered into GetMapping upcomingSlots endpoint...
+15:57:18.473 [main] INFO  c.b.B.controller.UserController - Upcoming Slots: [SlotDetails{slotId=1, totalSlots=10, slotNumber=1, startTime=15:57:18.465061800, endTime=16:57:18.465061800, selectedDate=2024-06-26, admin=1}]
+15:57:18.473 [main] INFO  c.b.B.controller.UserController - Upcoming Slots: [SlotDetails{slotId=1, totalSlots=10, slotNumber=1, startTime=15:57:18.465061800, endTime=16:57:18.465061800, selectedDate=2024-06-26, admin=1}]
+16:31:15.966 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m11s54ms919µs200ns).
+16:35:36.826 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:35:36.826 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:35:36.838 [main] INFO  c.b.B.controller.UserController - Current time: 16:35:36.838807
+16:35:36.838 [main] INFO  c.b.B.controller.UserController - Current time: 16:35:36.838807
+16:35:36.849 [main] INFO  c.b.B.controller.UserController - SlotID: 1
+16:35:36.849 [main] INFO  c.b.B.controller.UserController - SlotID: 1
+16:35:36.850 [main] INFO  c.b.B.controller.UserController - BetID: 1
+16:35:36.850 [main] INFO  c.b.B.controller.UserController - BetID: 1
+16:35:50.093 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:35:50.093 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:35:50.103 [main] INFO  c.b.B.controller.UserController - Current time: 16:35:50.103587600
+16:35:50.103 [main] INFO  c.b.B.controller.UserController - Current time: 16:35:50.103587600
+16:35:50.109 [main] INFO  c.b.B.controller.UserController - Slot object not found for slot number 1
+16:35:50.109 [main] INFO  c.b.B.controller.UserController - Slot object not found for slot number 1
+16:36:01.722 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:36:01.722 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:36:01.734 [main] INFO  c.b.B.controller.UserController - Current time: 16:36:01.734523200
+16:36:01.734 [main] INFO  c.b.B.controller.UserController - Current time: 16:36:01.734523200
+16:36:01.741 [main] INFO  c.b.B.controller.UserController - Betting time is over for slot number 1
+16:36:01.741 [main] INFO  c.b.B.controller.UserController - Betting time is over for slot number 1
+16:36:14.808 [main] INFO  c.b.B.controller.UserController - BetAmount: 150.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:36:14.808 [main] INFO  c.b.B.controller.UserController - BetAmount: 150.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:36:14.817 [main] INFO  c.b.B.controller.UserController - Current time: 16:36:14.817115100
+16:36:14.817 [main] INFO  c.b.B.controller.UserController - Current time: 16:36:14.817115100
+16:36:14.824 [main] INFO  c.b.B.controller.UserController - Insufficient balance for user 123
+16:36:14.824 [main] INFO  c.b.B.controller.UserController - Insufficient balance for user 123
+16:36:28.393 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:36:28.393 [main] INFO  c.b.B.controller.UserController - BetAmount: 50.0, selectedHorse: 1, user: 123, slotNumber:1,gameId:1
+16:36:28.402 [main] INFO  c.b.B.controller.UserController - Current time: 16:36:28.402632200
+16:36:28.402 [main] INFO  c.b.B.controller.UserController - Current time: 16:36:28.402632200
+16:36:28.419 [main] ERROR c.b.B.controller.UserController - An error occurred while saving the bet: Database error
+java.lang.RuntimeException: Database error
+	at com.bet.BettingGame.controller.UserController.saveBet(UserController.java:120)
+	at com.bet.BettingGame.controller.UserControllerTest.testSaveBet_InternalServerError(UserControllerTest.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+16:36:28.419 [main] ERROR c.b.B.controller.UserController - An error occurred while saving the bet: Database error
+java.lang.RuntimeException: Database error
+	at com.bet.BettingGame.controller.UserController.saveBet(UserController.java:120)
+	at com.bet.BettingGame.controller.UserControllerTest.testSaveBet_InternalServerError(UserControllerTest.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+18:28:27.502 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:28:27.524 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:28:27.535 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

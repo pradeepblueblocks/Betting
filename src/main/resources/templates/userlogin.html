@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Login</title>
+
+</head>
+<body>
+<h2>User Login</h2>
+<br/>
+<!--<h2>Countdown Timer</h2>-->
+<!--<div>Time remaining: <span id="timer"></span></div>-->
+<form action="#" th:action="@{/userlogin}" th:object="${user}" method="post">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"/>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"/>
+    </div>
+    <button type="submit">Login</button>
+    <p th:if="${error}">Invalid credentials. Please try again.</p>
+</form>
+<div th:if="${param.error}">
+    <p style="color: red;">Invalid username or password.</p>
+</div>
+
+</body>
+<script>
+    function startTimer(duration, display) {
+        var timer = duration, minutes, seconds;
+        setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                timer = duration;
+                alert("Your betting time is over!");
+            }
+            showAlert();
+        }, 1000);
+    }
+
+    window.onload = function () {
+        var fiveMinutes = 1* 60,
+            display = document.querySelector('#timer');
+        startTimer(fiveMinutes, display);
+    };
+</script>
+</html>

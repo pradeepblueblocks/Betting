@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Slots</title>
+</head>
+<body>
+<h1>Slots</h1>
+<form action="#" th:action="@{/saveSlotDetails}" th:object="${slot}" method="POST">
+<table border="1" class="table table-striped table-responsive-md">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Total Slots</th>
+        <th>Time Limit (seconds)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="slot : ${slots}">
+        <td th:text="${slot.id}"></td>
+        <td th:text="${slot.totalSlots}"></td>
+        <td th:text="${slot.timeLimitInSeconds}"></td>
+    </tr>
+    </tbody>
+</table>
+</form>
+</body>
+</html>

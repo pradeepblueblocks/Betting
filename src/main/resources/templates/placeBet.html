@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Horse Race Betting</title>
+    <script type="text/javascript">
+        var secondsLeft = 60; // Set the initial countdown time
+        var countdownInterval;
+
+        function startCountdown() {
+            countdownInterval = setInterval(function() {
+                document.getElementById('countdown').innerText = secondsLeft;
+                secondsLeft--;
+                if (secondsLeft < 0) {
+                    clearInterval(countdownInterval);
+                    disableBetting();
+                    setTimeout(refreshPage, 5000); // Refresh page after 5 seconds to show race results
+                }
+            }, 1000);
+        }
+
+        function disableBetting() {
+            document.getElementById('betButton').disabled = true;
+            document.getElementById('countdown').innerText = 'Time\'s up!';
+        }
+
+        function refreshPage() {
+            location.reload(); // Refresh the page to show updated race results
+        }
+
+        window.onload = function() {
+            startCountdown();
+        };
+    </script>
+</head>
+<body>
+<h1>Horse Race Betting</h1>
+<p>Time left for betting: <span id="countdown">60</span> seconds</p>
+<form th:action="@{/placeBet}" method="post">
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Horse</th>
+            <th>Total Bets</th>
+            <th>Place Bet</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="horse : ${horses}">
+            <td th:text="${horse.name}">Horse Name</td>
+            <td th:text="${horse.totalBets}">0</td>
+            <td>
+                <input type="number" name="betAmount" min="0" step="1" th:value="0"
+                       th:disabled="${secondsLeft < 0}" required>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <button id="betButton" type="submit" th:disabled="${secondsLeft < 0}">Place Bet</button>
+</form>
+</body>
+</html>
